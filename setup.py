@@ -3,12 +3,12 @@ from setuptools import setup
 setup(
 
     name='Flask-Images',
-    version='3.0.2',
+    version='4.0',
     description='Dynamic image resizing for Flask.',
-    url='http://github.com/mikeboers/Flask-Images',
+    url='http://github.com/rustamlilala/Flask-Images',
         
-    author='Mike Boers',
-    author_email='flask_images@mikeboers.com',
+    author='Lala Rustamli',
+    author_email='rustamlilala@gmail.com',
     license='BSD-3',
 
     packages=['flask_images'],
