@@ -2,16 +2,16 @@ from setuptools import setup
 
 setup(
 
-    name='Flask-Images',
+    name='Flask-Image-Resizer',
     version='4.0',
     description='Dynamic image resizing for Flask.',
-    url='http://github.com/rustamlilala/Flask-Images',
+    url='http://github.com/rustamlilala/Flask-Image-Resizer',
         
     author='Lala Rustamli',
     author_email='rustamlilala@gmail.com',
     license='BSD-3',
 
-    packages=['flask_images'],
+    packages=['flask_image_resizer'],
 
     install_requires=[
 

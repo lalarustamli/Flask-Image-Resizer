@@ -95,7 +95,7 @@ class Images(object):
         app.config.setdefault('IMAGES_URL', '/imgsizer') # This is historical.
         app.config.setdefault('IMAGES_NAME', 'images')
         app.config.setdefault('IMAGES_PATH', ['static'])
-        app.config.setdefault('IMAGES_CACHE', '/tmp/flask-images')
+        app.config.setdefault('IMAGES_CACHE', '/tmp/flask_image_resizer')
         app.config.setdefault('IMAGES_MAX_AGE', 3600)
 
         app.add_url_rule(app.config['IMAGES_URL'] + '/<path:path>', app.config['IMAGES_NAME'], self.handle_request)
